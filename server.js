@@ -1,4 +1,5 @@
-import path from "path";
+
+const path = require("path");
 import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./db/connectDB.js";
